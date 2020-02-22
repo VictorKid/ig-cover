@@ -1,0 +1,29 @@
+body {
+  background-color: yellow;
+}
+
+header {
+  background-color: green;
+  height: 75px;
+}
+
+main {
+  background-color: red;
+}
+
+.card-list {
+  background-color: purple;
+  width: 100%;
+  max-width: 614px;
+  margin: 60px auto 0 auto;
+}
+
+.card-wrapper {
+  margin-bottom: 16px;
+}
+
+.card-wrapper .header {
+  height: 60px;
+  background-color: #fff;
+  color: #000;
+}
