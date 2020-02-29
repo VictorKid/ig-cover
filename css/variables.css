@@ -1,0 +1,16 @@
+:root {
+  --main-text-color: #262626;
+  --hashtag-text-color: #00356a;
+  --tooltip-text-color: #eee;
+  --times-text-color: #999;
+
+  --body-bg-color: #fff;
+  --header-bg-color: #fff;
+  --tooltip-bg-color: #333;
+  --content-bg-color: #fafafa;
+  --card-bg-color: #fff;
+
+  --header-border-color: #dbdbdb;
+  --card-border-color: #dbdbdb;
+  --comment-border-color: #efefef;
+}
