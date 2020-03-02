@@ -47,20 +47,6 @@ main {
   margin-bottom: 0;
 }
 
-.card-wrapper a {
-  color: #262626;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.card-wrapper a.mention,
-.card-wrapper a.hashtag {
-  color: #00356a;
-  font-weight: normal;
-}
-
-
 .card-wrapper .header {
   display: flex;
   align-items: center;
