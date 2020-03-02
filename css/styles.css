@@ -14,66 +14,20 @@ header {
   height: 54px;
   background-color: var(--header-bg-color);
   border-bottom: 1px solid var(--header-border-color);
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  opacity: .9
 }
 
 header .icon {
   margin: 0 16px;
   cursor: pointer;
-  position: relative;
 }
 
 header .icon:hover svg {
   fill-opacity: 0.5;
 }
 
-header .icon:before {
-  content: '你好';
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 36px;
-  font-size: 12px;
-  text-align: center;
-  background-color: var(--tooltip-bg-color);
-  color: var(--tooltip-text-color);
-  padding: 4px;
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-
-header .icon[data-text="home"].icon:before {
-  content: '首頁';
-}
-
-header .icon[data-text="message"].icon:before {
-  content: '訊息';
-}
-
-header .icon[data-text="explore"].icon:before {
-  content: '探索';
-}
-
-header .icon[data-text="likes"].icon:before {
-  content: '珍藏';
-}
-
-header .icon:hover.icon:before {
-  opacity: 1;
-}
-
 main {
   background-color: var(--content-bg-color);
   padding-top: 60px;
-  margin-top: 54px;
 }
 
 .card-list {
