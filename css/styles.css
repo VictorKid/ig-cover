@@ -1,85 +1,29 @@
 body {
-  height: 100%;
   background-color: #fff;
   color: #262626;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 54px;
-  background-color: #fff;
-  border-bottom: 1px solid #dbdbdb;
-}
-
-header .icon {
-  margin: 0 16px;
-  cursor: pointer;
-}
-
-header .icon:hover svg {
-  fill-opacity: 0.5;
+  height: 117px;
+  background-color: blue;
 }
 
 main {
-  background-color: #fafafa;
+  background-color: green;
   padding-top: 60px;
 }
 
 .card-list {
-  width: 100%;
+  background-color: yellow;
   max-width: 614px;
   margin: 0 auto;
 }
 
 .card-wrapper {
+  height: 400px;
+  background-color: red;
   margin-bottom: 32px;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-.card-wrapper:last-child {
-  margin-bottom: 0;
-}
-
-.card-wrapper .header {
-  display: flex;
-  align-items: center;
-  height: 60px;
-  box-sizing: border-box;
-  padding: 16px;
-  position: relative;
-}
-
-.card-wrapper .header .desc{
-  margin-left: 16px;
-}
-
-.card-wrapper .header .title{
-  font-weight: bold;
-}
-
-.card-wrapper .header .avatar{
-  width: 32px;
-  height: 32px;
-}
-
-.card-wrapper .header img{
-  border-radius: 50%;
-}
-
-.card-wrapper .header .options{
-  position: absolute;
-  top: 0;
-  right: 16px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
 }
 
