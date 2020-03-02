@@ -1,7 +1,7 @@
 body {
   height: 100%;
-  background-color: var(--body-bg-color);
-  color: var(--main-text-color);
+  background-color: #fff;
+  color: #262626;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -12,8 +12,8 @@ header {
   justify-content: center;
   align-items: center;
   height: 54px;
-  background-color: var(--header-bg-color);
-  border-bottom: 1px solid var(--header-border-color);
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 header .icon {
@@ -26,7 +26,7 @@ header .icon:hover svg {
 }
 
 main {
-  background-color: var(--content-bg-color);
+  background-color: #fafafa;
   padding-top: 60px;
 }
 
@@ -38,9 +38,9 @@ main {
 
 .card-wrapper {
   margin-bottom: 32px;
-  border: 1px solid var(--card-border-color);
+  border: 1px solid #dbdbdb;
   border-radius: 3px;
-  background-color: var(--card-bg-color);
+  background-color: #fff;
 }
 
 .card-wrapper:last-child {
@@ -48,7 +48,7 @@ main {
 }
 
 .card-wrapper a {
-  color: var(--main-text-color);
+  color: #262626;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
@@ -56,7 +56,7 @@ main {
 
 .card-wrapper a.mention,
 .card-wrapper a.hashtag {
-  color: var(--hashtag-text-color);
+  color: #00356a;
   font-weight: normal;
 }
 
@@ -97,84 +97,3 @@ main {
   cursor: pointer;
 }
 
-.card-wrapper .actions {
-  margin-top: 4px;
-  padding: 0 16px;
-  display: flex;
-}
-
-.card-wrapper .actions .action-icon button {
-  border: 0;
-  background: 0 0;
-  padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.card-wrapper .actions .action-icon:hover svg {
-  fill-opacity: 0.5;
-}
-
-.card-wrapper .actions .action-icon:first-child {
-  margin-left: -8px;
-}
-
-.card-wrapper .actions .action-icon:last-child {
-  margin-left: auto;
-  margin-right: -8px;
-}
-
-.card-wrapper .bottom {
-}
-
-.card-wrapper .bottom section {
-  padding: 0 16px;
-}
-
-.card-wrapper .likes {
-  display: flex;
-  align-items: center;
-  margin: 8px 0;
-}
-
-.card-wrapper .likes .liked-by {
-  width: 20px;
-  height: 20px;
-  margin-right: 4px;
-}
-
-.card-wrapper .likes .liked-by img {
-  border-radius: 50%;
-}
-
-.card-wrapper .bottom .content{
-  margin-bottom: 8px;
-}
-
-.card-wrapper .bottom .times {
-  color: var(--times-text-color);
-  margin: 4px 0;
-  text-transform: uppercase;
-}
-
-.card-wrapper .bottom .times time {
-  letter-spacing: .2;
-  font-size: 10px;
-}
-
-.card-wrapper .bottom .add-comment {
-  border-top: 1px solid var(--comment-border-color);
-  display: flex;
-  align-items: center;
-  height: 56px;
-  line-height: 18px;
-}
-
-.card-wrapper .bottom input {
-  border: 0;
-  height: 18px;
-  width: 100%;
-  color: var(--main-text-color);
-}
